@@ -370,10 +370,3 @@ main .task .progress .number {
 
 
 }
-
-.container .login-box
-{
-    width: calc(100%-58%);
-    height: 100%;
-    background: red;
-}
