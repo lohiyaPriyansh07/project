@@ -205,19 +205,20 @@ body
 {
     transform: translateX(0);
     transition: transform .6s ease;
+    transition-delay: .7s;
 }
 
 .login-box.active .form-box.login
 {
     transform: translateX(450px);
-    transition-delay: 0;
+    transition-delay: 0s;
 }
 
 .login-box .form-box.register
 {
     transform: translateX(450px);
-    transition: transform .5s ease;
-    transition-delay: 0;
+    transition: transform .6s ease;
+    transition-delay: 0s;
 }
 
 .login-box.active .form-box.register
